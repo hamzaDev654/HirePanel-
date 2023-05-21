@@ -1,0 +1,10 @@
+.curve-color {
+    fill: #fff;
+}
+.curve svg {
+    display: block;
+}
+
+svg.controlSvg {
+    transform: rotate(180deg);
+}

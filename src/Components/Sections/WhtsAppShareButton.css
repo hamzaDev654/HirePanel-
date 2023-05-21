@@ -1,0 +1,72 @@
+:where(.css-5scq2q).ant-float-btn-default {
+    background-color: #ffffff;
+    transition: background-color 0.2s;
+}
+:where(.css-5scq2q).ant-float-btn-circle {
+    height: 40px;
+    border-radius: 50%;
+}
+
+:where(.css-5scq2q).ant-float-btn {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    color: rgba(0, 0, 0, 0.88);
+    font-size: 14px;
+    line-height: 1.5714285714285714;
+    list-style: none;
+    font-family: -apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,'Helvetica Neue',Arial,'Noto Sans',sans-serif,'Apple Color Emoji','Segoe UI Emoji','Segoe UI Symbol','Noto Color Emoji';
+    border: none;
+    position: fixed;
+    cursor: pointer;
+    overflow: hidden;
+    z-index: 99;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    inset-inline-end: 24px;
+    inset-block-end: 48px;
+    box-shadow: 0 6px 16px 0 rgba(0, 0, 0, 0.08),0 3px 6px -4px rgba(0, 0, 0, 0.12),0 9px 28px 8px rgba(0, 0, 0, 0.05);
+}
+
+:where(.css-5scq2q).ant-float-btn-default .ant-float-btn-body {
+    background-color: #ffffff;
+    transition: background-color 0.2s;
+}
+
+:where(.css-5scq2q).ant-float-btn-circle .ant-float-btn-body {
+    border-radius: 50%;
+}
+
+:where(.css-5scq2q).ant-float-btn .ant-float-btn-body {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.2s;
+}
+:where(.css-5scq2q).ant-float-btn .ant-float-btn-body .ant-float-btn-content {
+    overflow: hidden;
+    text-align: center;
+    min-height: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 2px 4px;
+}
+
+:where(.css-5scq2q).ant-float-btn-default .ant-float-btn-body .ant-float-btn-content .ant-float-btn-icon {
+    color: rgba(0, 0, 0, 0.88);
+}
+
+:where(.css-5scq2q).ant-float-btn .ant-float-btn-body .ant-float-btn-content .ant-float-btn-icon {
+    text-align: center;
+    margin: auto;
+    width: 18px;
+    font-size: 18px;
+    line-height: 1;
+}
