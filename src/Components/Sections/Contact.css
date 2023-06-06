@@ -1,0 +1,277 @@
+#contact {
+    margin-bottom: 10vh;
+}
+.landing-section-content {
+    margin-left: 5.277vw;
+    margin-right: 5.277vw;
+}
+#contact h2 {
+    margin-bottom: 2vh;
+}
+
+#contact p {
+    margin-bottom: 8vh;
+}
+@media (min-width: 1200px){
+    .landing-section-content h2 {
+        font-size: 2rem;
+    }
+    .landing-section-content p {
+        line-height: 1.5rem;
+    }
+    :where(.css-5scq2q).ant-col-xl-18 {
+        display: block;
+        flex: 0 0 75%;
+        max-width: 75%;
+    }
+    :where(.css-5scq2q).ant-col-xl-6 {
+        display: block;
+        flex: 0 0 25%;
+        max-width: 25%;
+    }
+}
+
+
+:where(.css-5scq2q)[className^="ant-row"], :where(.css-5scq2q)[className*=" ant-row"] {
+    font-family: -apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,'Helvetica Neue',Arial,'Noto Sans',sans-serif,'Apple Color Emoji','Segoe UI Emoji','Segoe UI Symbol','Noto Color Emoji';
+    font-size: 14px;
+    box-sizing: border-box;
+}
+
+:where(.css-5scq2q).ant-form {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    color: rgba(0, 0, 0, 0.88);
+    font-size: 14px;
+    line-height: 1.5714285714285714;
+    list-style: none;
+    font-family: -apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,'Helvetica Neue',Arial,'Noto Sans',sans-serif,'Apple Color Emoji','Segoe UI Emoji','Segoe UI Symbol','Noto Color Emoji';
+}
+
+@media (min-width: 768px){
+    :where(.css-5scq2q).ant-col-md-8 {
+        display: block;
+        flex: 0 0 33.33333333333333%;
+        max-width: 33.33333333333333%;
+    }
+}
+
+:where(.css-5scq2q).ant-form-item {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    color: rgba(0, 0, 0, 0.88);
+    font-size: 14px;
+    line-height: 1.5714285714285714;
+    list-style: none;
+    font-family: -apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,'Helvetica Neue',Arial,'Noto Sans',sans-serif,'Apple Color Emoji','Segoe UI Emoji','Segoe UI Symbol','Noto Color Emoji';
+    margin-bottom: 24px;
+    vertical-align: top;
+}
+:where(.css-5scq2q).ant-form-vertical .ant-form-item-row {
+    flex-direction: column;
+}
+:where(.css-5scq2q)[className^="ant-form"], :where(.css-5scq2q)[className*=" ant-form"] {
+    font-family: -apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,'Helvetica Neue',Arial,'Noto Sans',sans-serif,'Apple Color Emoji','Segoe UI Emoji','Segoe UI Symbol','Noto Color Emoji';
+    font-size: 14px;
+    box-sizing: border-box;
+}
+
+:where(.css-5scq2q).ant-form-vertical .ant-form-item-label, :where(.css-5scq2q).ant-col-24.ant-form-item-label, :where(.css-5scq2q).ant-col-xl-24.ant-form-item-label {
+    margin: 0;
+    padding: 0 0 8px;
+    white-space: initial;
+    text-align: start;
+}
+:where(.css-5scq2q).ant-form-item .ant-form-item-label {
+    display: inline-block;
+    flex-grow: 0;
+    overflow: hidden;
+    white-space: nowrap;
+    text-align: end;
+    vertical-align: middle;
+}
+:where(.css-5scq2q).ant-form-large .ant-form-item .ant-form-item-label>label {
+    height: 40px;
+}
+:where(.css-5scq2q).ant-form-vertical .ant-form-item-label >label, :where(.css-5scq2q).ant-col-24.ant-form-item-label >label, :where(.css-5scq2q).ant-col-xl-24.ant-form-item-label >label {
+    margin: 0;
+}
+:where(.css-5scq2q).ant-form-item .ant-form-item-label >label {
+    display: inline-flex;
+    align-items: center;
+    max-width: 100%;
+    height: 32px;
+    color: rgba(0, 0, 0, 0.88);
+    font-size: 14px;
+}
+:where(.css-5scq2q).ant-form-vertical .ant-form-item-label, :where(.css-5scq2q).ant-col-24.ant-form-item-label, :where(.css-5scq2q).ant-col-xl-24.ant-form-item-label {
+    margin: 0;
+    padding: 0 0 8px;
+    white-space: initial;
+    text-align: start;
+}
+:where(.css-5scq2q).ant-form-item .ant-form-item-label >label.ant-form-item-required:not(.ant-form-item-required-mark-optional)::before {
+    display: inline-block;
+    margin-inline-end: 4px;
+    color: #ff4d4f;
+    font-size: 14px;
+    font-family: SimSun,sans-serif;
+    line-height: 1;
+    content: "*";
+}
+:where(.css-5scq2q).ant-form-vertical .ant-form-item-label >label::after, :where(.css-5scq2q).ant-col-24.ant-form-item-label >label::after, :where(.css-5scq2q).ant-col-xl-24.ant-form-item-label >label::after {
+    display: none;
+}
+:where(.css-5scq2q).ant-form-item .ant-form-item-label >label::after {
+    content: ":";
+    margin-block: 0;
+    margin-inline-start: 2px;
+    margin-inline-end: 8px;
+}
+:where(.css-5scq2q).ant-form-vertical .ant-form-item .ant-form-item-control {
+    width: 100%;
+}
+.contact-col-antd .ant-form-item-control {
+    max-width: 100%;
+}
+:where(.css-5scq2q).ant-form-item .ant-form-item-control {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+}
+:where(.css-5scq2q).ant-form-large .ant-form-item .ant-form-item-control-input {
+    min-height: 40px;
+}
+:where(.css-5scq2q).ant-form-item .ant-form-item-control-input {
+    display: flex;
+    align-items: center;
+    min-height: 32px;
+}
+:where(.css-5scq2q).ant-form-item .ant-form-item-control-input-content {
+    flex: auto;
+    max-width: 100%;
+}
+:where(.css-5scq2q).ant-input:placeholder-shown {
+    text-overflow: ellipsis;
+}
+:where(.css-5scq2q).ant-input-lg {
+    padding: 7px 11px !important;
+    font-size: 16px !important;
+    line-height: 1.5 !important;
+    border-radius: 8px !important;
+}
+:where(.css-5scq2q).ant-input {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 4px 11px;
+    color: rgba(0, 0, 0, 0.88);
+    font-size: 14px;
+    line-height: 1.5714285714285714;
+    list-style: none;
+    font-family: -apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,'Helvetica Neue',Arial,'Noto Sans',sans-serif,'Apple Color Emoji','Segoe UI Emoji','Segoe UI Symbol','Noto Color Emoji';
+    display: inline-block;
+    width: 100% !important;
+    min-width: 0;
+    background-color: #ffffff;
+    background-image: none;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #d9d9d9;
+    border-radius: 6px;
+    transition: all 0.2s;
+}
+
+ul.contact-details {
+    list-style: none;
+}
+ul.contact-details>li:first-child {
+    margin-top: .9em;
+}
+ul.contact-details>li {
+    margin: 1.5em 0 0 0;
+}
+ul.contact-details {
+    list-style: none;
+}
+
+
+textarea:where(.css-5scq2q).ant-input {
+    max-width: 100%;
+    height: auto;
+    min-height: 32px;
+    line-height: 1.5714285714285714;
+    vertical-align: bottom;
+    transition: all 0.3s,height 0s;
+    resize: vertical;
+}
+:where(.css-5scq2q).ant-input:hover {
+    border-color: #282ffa;
+    border-inline-end-width: 1px;
+}
+
+:where(.css-5scq2q).ant-btn.ant-btn-lg {
+    font-size: 16px;
+    height: 40px;
+    padding: 6.428571428571429px 15px;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+}
+
+:where(.css-5scq2q).ant-btn-primary {
+    color: #fff;
+    background-color: #0000ee;
+    box-shadow: 0 2px 0 rgba(5, 45, 255, 0.1);
+}
+
+ul.contact-details>li span {
+    color: rgba(0,0,0,.4509803922);
+    line-height: 1.75;
+}
+
+@media (max-width: 575px){
+    :where(.css-5scq2q).ant-form-item .ant-form-item-label >label {
+        margin: 0;
+    }
+    :where(.css-5scq2q).ant-form-item .ant-form-item-label {
+        margin: 0;
+        padding: 0 0 8px;
+        white-space: initial;
+        text-align: start;
+    }
+}
+
+:where(.css-5scq2qa).ant-col {
+    width: 100%;
+    min-height: 1px;
+}
+:where(.css-5scq2q).ant-col {
+    width: 100%;
+    min-height: 1px;
+}
+
+:where(.css-5scq2q).ant-input-status-error:not(.ant-input-disabled):not(.ant-input-borderless).ant-input {
+    border-color: #ff4d4f;
+}
+
+:where(.css-5scq2q).ant-form-item-with-help .ant-form-item-explain {
+    height: auto;
+    opacity: 1;
+}
+
+:where(.css-5scq2q).ant-form-item .ant-form-item-explain-connected {
+    width: 100%;
+}
+
+:where(.css-5scq2q).ant-form-item .ant-form-item-explain, :where(.css-5scq2q).ant-form-item .ant-form-item-extra {
+    clear: both;
+    color: rgba(0, 0, 0, 0.45);
+    font-size: 14px;
+    line-height: 1.5714285714285714;
+}
+
+:where(.css-5scq2q).ant-form-item .ant-form-item-explain-error {
+    color: #ff4d4f;
+}

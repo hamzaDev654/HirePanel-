@@ -1,0 +1,106 @@
+#services {
+    margin-bottom: 10vh;
+}
+.landing-section-content {
+    margin-left: 5.277vw;
+    margin-right: 5.277vw;
+}
+.landing-section-content h3 {
+    font-size: calc(1.275rem + 0.3vw);
+}
+.landing-section-content p {
+    font-size: 1rem;
+    line-height: calc(1.275rem + 0.3vw);
+}
+
+@media (min-width: 1200px){
+    .landing-section-content p {
+        line-height: 1.5rem;
+    }
+}
+:where(.css-5scq2q).ant-row-middle {
+    align-items: center;
+}
+:where(.css-5scq2q).ant-row-space-between {
+    justify-content: space-between;
+}
+:where(.css-5scq2q).ant-row {
+    display: flex;
+    flex-flow: row wrap;
+    min-width: 0;
+}
+@media (min-width: 768px){
+:where(.css-5scq2q).ant-col-md-10 {
+    display: block;
+    flex: 0 0 41.66666666666667%;
+    max-width: 41.66666666666667%;
+}
+}
+#services img {
+    width: 40vw;
+    height: auto;
+}
+@media (min-width: 768px){
+    :where(.css-5scq2q).ant-col-md-12 {
+        display: block;
+        flex: 0 0 50%;
+        max-width: 100%;
+    }
+
+}
+
+#services h2 {
+    margin-bottom: 0px;
+}
+.landing-section-content h2 {
+    font-size: calc(1.325rem + 0.9vw);
+    margin-bottom: 10vh;
+}
+#services h3 {
+    margin-bottom: 2vh;
+}
+#services p {
+    color: rgba(0,0,0,.4509803922);
+    text-align: justify;
+}
+@media (min-width: 1200px){
+    .landing-section-content h3 {
+        font-size: 1.5rem;
+    }
+    .landing-section-content p {
+        line-height: 1.5rem;
+    }
+}
+
+@media (max-width: 768px){
+    #services img {
+        margin-top: 5vh;
+        width: 40vw;
+        height: auto;
+    }
+
+}
+
+@media (max-width: 430px){
+    #services img {
+        margin-top: 5vh;
+        width: 90vw;
+        height: auto;
+    }
+}
+:where(.css-5scq2q).ant-col-xs-24 {
+    display: block;
+    /* flex: 0 0 100%;
+    max-width: 100%; */
+}
+
+:where(.css-5scq2q)[className^="ant-col"], :where(.css-5scq2q)[className*=" ant-col"] {
+    font-family: -apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,'Helvetica Neue',Arial,'Noto Sans',sans-serif,'Apple Color Emoji','Segoe UI Emoji','Segoe UI Symbol','Noto Color Emoji';
+    font-size: 14px;
+    box-sizing: border-box;
+}
+/* :where(.css-5scq2q).ant-col {
+    position: relative;
+    max-width: 100%;
+    min-height: 1px;
+} */
